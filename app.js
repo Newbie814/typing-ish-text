@@ -5,7 +5,7 @@ const text =
 
 let idx = 1;
 
-let speed = 2000 / speedElement.value;
+let speed = speedElement.value * 12000;
 
 displayText();
 
@@ -20,3 +20,7 @@ function displayText() {
 
   setTimeout(displayText, speed);
 }
+
+speedElement.addEventListener('input', (e) => {
+  speed = 12000 / e.target.value;
+});

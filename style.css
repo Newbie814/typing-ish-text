@@ -74,7 +74,7 @@ body {
   font-size: 0.875rem;
   height: 100vh;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -154,7 +154,13 @@ p {
   -moz-text-fill-color: transparent;
 }
 
-div {
+.quote-container {
+  height: 200px;
+  width: 90vw;
+  text-align: center;
+}
+
+.control-wrapper {
   position: absolute;
   bottom: 20px;
   background-color: rgba(0, 0, 0, 0.24);
@@ -162,6 +168,12 @@ div {
   font-size: 1.3rem;
   font-weight: bold;
   border-radius: 8px;
+}
+
+.author-container {
+  color: var(--clr-grey-1);
+  font-size: 1.3rem;
+  font-style: italic;
 }
 
 #speed {
