@@ -7,9 +7,21 @@
 
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Project Name</title>
+    <title>Animated text</title>
   </head>
   <body>
-    <h1 class="text-experiment">Project Name</h1>
+    <h1 class="text-experiment" id="text">Initializing</h1>
+    <div class="control-wrapper">
+      <label for="speed">WPM</label>
+      <input
+        type="number"
+        name="name"
+        id="speed"
+        value="1"
+        min="1"
+        max="200"
+        step="4"
+      />
+    </div>
   </body>
 </html>

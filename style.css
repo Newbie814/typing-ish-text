@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-8);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -137,17 +137,6 @@ p {
 }
 /*  global classes */
 
-/* section */
-.section {
-  padding: 5rem 0;
-}
-
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
-
 /* --------------------------------project styling ---------------------------- */
 .text-experiment {
   background-color: #090979;
@@ -158,10 +147,32 @@ p {
   );
   background-size: 100%;
   padding: 10px;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.24);
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+#speed {
+  width: 3.2rem;
+  padding: 5px;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  background: var(--clr-primary-8);
+  border-radius: 8px;
+  border: none;
+  text-align: center;
 }
 /* ----------------------------end project styling ---------------------------- */
 @media screen and (min-width: 992px) {
