@@ -66,9 +66,15 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  background-image: url(https://res.cloudinary.com/dylvkdabj/image/upload/v1649905756/website%20pics%20family/181-1813876_game-of-thrones-season-7-dragon-wallpaper-hd_hxoym1.jpg);
+  height: 100vh;
+}
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-primary-8);
+  background: var(--clr-primary-8), url(https://res.cloudinary.com/dylvkdabj/image/upload/v1649905756/website%20pics%20family/181-1813876_game-of-thrones-season-7-dragon-wallpaper-hd_hxoym1.jpg);
+      no-repeat center center fixed;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -158,33 +164,39 @@ p {
   height: 200px;
   width: 90vw;
   text-align: center;
+  color: #fff;
 }
 
 .control-wrapper {
   position: absolute;
   bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.24);
+  background-color: rgba(255, 255, 255, 0.363);
   padding: 10px 20px;
   font-size: 1.3rem;
   font-weight: bold;
   border-radius: 8px;
+  color: #fff;
 }
 
 .author-container {
-  color: var(--clr-grey-1);
+  color: #fff;
   font-size: 1.3rem;
   font-style: italic;
 }
+
+
+
 
 #speed {
   width: 3.2rem;
   padding: 5px;
   font-size: 1.25rem;
   margin-left: 1rem;
-  background: var(--clr-primary-8);
+  background: rgba(65, 65, 65, 0.425);
   border-radius: 8px;
   border: none;
   text-align: center;
+  color: #fff;
 }
 /* ----------------------------end project styling ---------------------------- */
 @media screen and (min-width: 992px) {
